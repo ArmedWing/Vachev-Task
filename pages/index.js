@@ -8,7 +8,10 @@ const heroProps = {
   ctaText: "Start",
 };
 const mainProps = {
-  image: { src: "/img/video.png", alt: "", width: 500, height: 500 },
+  icon: {src: "", alt: ""},
+  image: { src: "/img/video.png", alt: "", width: 450, height: 800 },
+  title: 'Managed agency selection',
+  description: 'Strenthen your onboarding process'
 };
 
 export default function Home() {

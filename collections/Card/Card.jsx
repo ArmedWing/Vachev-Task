@@ -1,6 +1,21 @@
 // The Card to be exported goes here
-function Card() {
-    return <div>Hello</div>
-}
+import {
+    StyledTextContainer,
+    StyledContainer,
+    StyledTitle,
+    StyledDescription,
+    StyledIconContainer,
+} from "./elements";
 
-export default Card
+export const Card = ({icon, title, description}) => {
+    return (
+        
+        <StyledContainer>
+            <StyledIconContainer><img src={icon}></img></StyledIconContainer>
+            <StyledTextContainer>                
+                <StyledTitle>{title}</StyledTitle>
+                <StyledDescription>{description}</StyledDescription>
+            </StyledTextContainer>
+        </StyledContainer>
+    )
+}

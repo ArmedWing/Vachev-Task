@@ -1,10 +1,17 @@
 import styled from "styled-components";
-import { Video } from "~/components";
+import { SectionBigHeading, SectionSubheading } from "~/components";
 
 
-export const StyledVideContainer = styled(({ ...props }) => <div {...props} />)`
-    max-width: 50rem;    
-    width: 100%;
-    height: 100%;
-    
+export const StyledVideoContainer = styled(({ ...props }) => <div {...props} />)`    
+    width: 25%;
+    height: auto;    
+`;
+
+export const StyledTitle = styled((props) => <SectionBigHeading {...props} />)`
+    margin: 0;
+    color: black;
+`;
+
+export const StyledDescription = styled((props) => <SectionSubheading {...props} />)`
+    margin: 1.563rem 0 0;
 `;

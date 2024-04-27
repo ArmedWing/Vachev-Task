@@ -5,21 +5,71 @@ import {
     StyledTitle,
     StyledDescription,
     StyledVideoContainer,
+    StyledDivSection,
+    StyledCardContainer,
+    StyledMainSection,
+    StyledCard,
+    StyledVideoCard,
+    StyledIcon,
 } from "./elements";
 
-export const Main = ({icon, image, title, description}) => {
+export const Main = ({ image, title, description}) => {
     return (
-        <div>
-            <StyledTitle>{title}</StyledTitle>
-            <StyledDescription>{description}</StyledDescription>
-            <StyledVideoContainer>
-                <Video image={image}/>
-            </StyledVideoContainer>
+        <StyledDivSection>
+            <StyledMainSection>            
+                <StyledTitle>{title}</StyledTitle>
+                <StyledDescription>{description}</StyledDescription>
+            </StyledMainSection>
+
+            <StyledVideoCard>
+                <StyledVideoContainer>
+                    <Video image={image}/>
+                </StyledVideoContainer>
             
-            <Card icon="/img/design+2.png" title="Brief" description="Complete brief writing or simple guidance on what to include, we've got you covered."/>
-            <Card icon="/img/presentation.png" title="Search" description="In-depth agency search covering, criteria matching, door knocking and due-dilligence vetting."/>
-            <Card icon="/img/meeting.png" title="Pith" description="Comprehensive pith management, including comms, diary management and pitch hosting."/>
-        </div>
+                {/* <StyledCardContainer>
+                    <StyledCard>
+                        <StyledIconContainer src="/img/design+2.png" alt="Brief Icon" />
+                        <Card  title="Brief" description="Complete brief writing or simple guidance on what to include, we've got you covered."/>
+                    </StyledCard>
+
+                    <StyledCard>
+                        <StyledIconContainer src="/img/presentation.png" alt="Brief Icon" />
+                        <Card  title="Search" description="In-depth agency search covering, criteria matching, door knocking and due-dilligence vetting."/>
+                    </StyledCard>
+
+                    <StyledCard>
+                        <StyledIconContainer src="/img/meeting.png" alt="Brief Icon" />
+                        <Card  title="Pith" description="Comprehensive pith management, including comms, diary management and pitch hosting."/>
+                    </StyledCard>
+                </StyledCardContainer> */}
+                <StyledCardContainer>
+                    <StyledCard>
+                        <StyledIcon src="/img/design.png" alt="Brief Icon" />
+                        <div>
+                        <h3>Brief</h3>
+                        <p>Complete brief writing or simple guidance on what to include, we've got you covered.</p>
+                        </div>
+                    </StyledCard>
+
+                    <StyledCard>
+                        <StyledIcon src="/img/presentation2.png" alt="Search Icon" />
+                        <div>
+                        <h3>Search</h3>
+                        <p>In-depth agency search covering, criteria matching, door knocking and due-dilligence vetting.</p>
+                        </div>
+                    </StyledCard>
+
+                    <StyledCard>
+                        <StyledIcon src="/img/meeting.png" alt="Pith Icon" />
+                        <div>
+                        <h3>Pitch</h3>
+                        <p>Comprehensive pitch management, including comms, diary management and pitch hosting.</p>
+                        </div>
+                    </StyledCard>
+                    </StyledCardContainer>
+
+                        </StyledVideoCard>
+        </StyledDivSection>
         
     );
 };

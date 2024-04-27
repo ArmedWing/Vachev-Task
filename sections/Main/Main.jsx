@@ -38,7 +38,7 @@ export const Main = ({ image, title, description}) => {
                         <StyledIcon src="/img/presentation2.png" alt="Search Icon" />
                         <div>
                         <h3>Search</h3>
-                        <p>In-depth agency search covering, criteria matching, door knocking and due-dilligence vetting.</p>
+                        <p>In-depth agency search covering, <b>criteria matching</b>, door knocking and due-dilligence vetting.</p>
                         </div>
                     </StyledCard>
 
@@ -46,7 +46,7 @@ export const Main = ({ image, title, description}) => {
                         <StyledIcon src="/img/meeting.png" alt="Pith Icon" />
                         <div>
                         <h3>Pitch</h3>
-                        <p>Comprehensive pitch management, including comms, diary management and pitch hosting.</p>
+                        <p>Comprehensive <b>pitch management</b>, including comms, diary management and pitch hosting.</p>
                         </div>
                     </StyledCard>
                     </StyledCardContainer>

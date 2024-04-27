@@ -6,7 +6,7 @@ align-items: center;
 justify-content: flex-start;
 margin-bottom: 10px;
 padding: 20px; 
-border: 1px #ccc; 
+border: 2px solid transparent; 
 border-radius: 10px; 
 width: 500px;
 height: 150px;

@@ -11,4 +11,8 @@ border-radius: 10px;
 width: 500px;
 height: 150px;
 background-color: #f9f8f8;
+
+@media (max-width: 1024px){
+    width: 90%;
+}
 `

@@ -46,6 +46,7 @@ flex: 1;
 }
 &:hover h3 {
     color: #2774da;
+    text-decoration: underline;
 }
 `
 

@@ -25,23 +25,6 @@ export const Main = ({ image, title, description}) => {
                 <StyledVideoContainer>
                     <Video image={image}/>
                 </StyledVideoContainer>
-            
-                {/* <StyledCardContainer>
-                    <StyledCard>
-                        <StyledIconContainer src="/img/design+2.png" alt="Brief Icon" />
-                        <Card  title="Brief" description="Complete brief writing or simple guidance on what to include, we've got you covered."/>
-                    </StyledCard>
-
-                    <StyledCard>
-                        <StyledIconContainer src="/img/presentation.png" alt="Brief Icon" />
-                        <Card  title="Search" description="In-depth agency search covering, criteria matching, door knocking and due-dilligence vetting."/>
-                    </StyledCard>
-
-                    <StyledCard>
-                        <StyledIconContainer src="/img/meeting.png" alt="Brief Icon" />
-                        <Card  title="Pith" description="Comprehensive pith management, including comms, diary management and pitch hosting."/>
-                    </StyledCard>
-                </StyledCardContainer> */}
                 <StyledCardContainer>
                     <StyledCard>
                         <StyledIcon src="/img/design.png" alt="Brief Icon" />

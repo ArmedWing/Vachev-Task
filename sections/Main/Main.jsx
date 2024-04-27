@@ -30,7 +30,7 @@ export const Main = ({ image, title, description}) => {
                         <StyledIcon src="/img/design.png" alt="Brief Icon" />
                         <div>
                         <h3>Brief</h3>
-                        <p>Complete brief writing or simple guidance on what to include, we've got you covered.</p>
+                        <p>Complete <b>brief writing or simple guidance</b> on what to include, we've got you covered.</p>
                         </div>
                     </StyledCard>
 

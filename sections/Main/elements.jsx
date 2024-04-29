@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { SectionBigHeading, SectionSubheading, DivSection, CardContainer, MainContainer, StyleCard, StyleVideoCardContainer, StyleIcon} from "~/components";
 
 
-export const StyledVideoContainer = styled(({ ...props }) => <div {...props} />)`  
+export const StyledVideoContainer = styled(({ ...props }) => <div {...props} />)` 
+position: relative;
 width: 55%;
 height: auto;
 flex: 0 0 auto; 
@@ -20,7 +21,8 @@ margin-bottom: 0;
 `;
 
 export const StyledDivSection = styled((props) => <DivSection {...props} />)`
-background-image: url(/img/background.png);  
+background-image: url(/img/background.png);
+
 `;
 
 export const StyledCardContainer = styled((props) => <CardContainer {...props}/>)`
@@ -51,7 +53,6 @@ flex: 1;
 `
 
 export const StyledVideoCard = styled((props) => <StyleVideoCardContainer {...props}/>)`
-
 `
 export const StyledIcon = styled((props) => <StyleIcon {...props}/>)`
 

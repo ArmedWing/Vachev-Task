@@ -1,4 +1,4 @@
-import { Video } from "../../components/Video/video";
+import { Video } from "../../components/Video/";
 import { cardData } from "../../collections/Card"
 
 import {
